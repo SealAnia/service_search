@@ -1,0 +1,1 @@
+package com.example.service_search.model.entity;
