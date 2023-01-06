@@ -18,7 +18,7 @@ public class Portfolio {
 	private String description;
 	@Column(name = "type")
 	private String type;
-	@Column(name = "image")
+	@Column(name = "image", columnDefinition = "mediumblob")
 	private byte[] image;
 	
 	public Integer getPortfolioId() {
